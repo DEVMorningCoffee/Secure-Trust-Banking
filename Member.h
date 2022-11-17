@@ -19,6 +19,8 @@ public:
     void updateName(const std::string& n);
     std::string showEmail();
     void updateEmail(const std::string& e);
+    Account showAccount();
+    void updateAccount(Account a);
 };
 
 

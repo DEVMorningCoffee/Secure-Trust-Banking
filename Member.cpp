@@ -24,3 +24,11 @@ void Member::updateEmail(const std::string &e) {
 void Member::updateName(const std::string &n) {
     this->name = n;
 }
+
+Account Member::showAccount() {
+    return this->account;
+}
+
+void Member::updateAccount(Account a) {
+    this->account = a;
+}
