@@ -8,6 +8,8 @@ int Account::showID() {
     return this->ID;
 }
 
+int Account::nextID = 0;
+
 bool Account::showStatus() {
     return this->status;
 }

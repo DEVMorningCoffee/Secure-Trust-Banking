@@ -5,8 +5,9 @@
 #ifndef ATM_ACCOUNT_H
 #define ATM_ACCOUNT_H
 
+#include "Payment/Balance.h"
 
-class Account {
+class Account : public Balance{
 protected:
     static int nextID;
     int ID;
