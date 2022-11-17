@@ -3,3 +3,12 @@
 //
 
 #include "CheckingAccount.h"
+
+
+float CheckingAccount::showBalance() {
+    return this->balance;
+}
+
+void CheckingAccount::updateBalance(const float& amount) {
+    this->balance += amount;
+}

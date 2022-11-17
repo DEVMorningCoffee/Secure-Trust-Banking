@@ -7,7 +7,13 @@
 
 
 class CheckingAccount {
+    //Default Amount;
+    float balance = 1000;
+public:
+    CheckingAccount() = default;
 
+    float showBalance();
+    void updateBalance(const float& amount);
 };
 
 
