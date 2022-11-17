@@ -7,6 +7,7 @@
 
 
 class CheckingAccount {
+protected:
     //Default Amount;
     float balance = 1000;
 public:
