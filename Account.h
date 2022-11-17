@@ -12,13 +12,15 @@ protected:
     static int nextID;
     int ID;
     bool status;
+    Balance balance;
 public:
     Account() = default;
 
     bool showStatus();
     void changeStatus();
     int showID();
-
+    Balance showBalance();
+    void updateBalance(Balance b);
 };
 
 

@@ -17,3 +17,11 @@ bool Account::showStatus() {
 void Account::changeStatus() {
     this->status = !this->status;
 }
+
+Balance Account::showBalance() {
+    return this->balance;
+}
+
+void Account::updateBalance(Balance b) {
+    this->balance = b;
+}
