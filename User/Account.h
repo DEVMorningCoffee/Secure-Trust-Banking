@@ -5,22 +5,29 @@
 #ifndef ATM_ACCOUNT_H
 #define ATM_ACCOUNT_H
 
-#include "../Payment/Balance.h"
+#include "../Payment Account//SavingAccount.h"
+#include "../Payment Account//CheckingAccount.h"
 
-class Account : public Balance{
+class Account : public SavingAccount, public CheckingAccount{
 protected:
     static int nextID;
     int ID;
     bool status;
-    Balance balance;
+    SavingAccount savingAccount;
+    CheckingAccount checkingAccount;
 public:
     Account() = default;
 
-    bool showStatus();
+    // Setter
+    void updateCheckingAccountBalance(const float& amount);
+    void updateSavingAccountBalance(const float& amount);
     void changeStatus();
+
+    // Getter
+    bool showStatus();
     int showID();
-    Balance showBalance();
-    void updateBalance(Balance b);
+    float showCheckingAccountBalance();
+    float showSavingAccountBalance();
 };
 
 

@@ -18,10 +18,18 @@ void Account::changeStatus() {
     this->status = !this->status;
 }
 
-Balance Account::showBalance() {
-    return this->balance;
+void Account::updateCheckingAccountBalance(const float &amount) {
+    this->checkingAccount.updateBalance(amount);
 }
 
-void Account::updateBalance(Balance b) {
-    this->balance = b;
+void Account::updateSavingAccountBalance(const float &amount) {
+    this->SavingAccount::balance += amount;
+}
+
+float Account::showCheckingAccountBalance() {
+    return this->checkingAccount.showBalance();
+}
+
+float Account::showSavingAccountBalance() {
+    return this->savingAccount.showBalance();
 }
