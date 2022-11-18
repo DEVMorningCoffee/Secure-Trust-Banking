@@ -13,6 +13,7 @@ protected:
 
 public:
     SavingAccount() = default;
+
     float showBalance();
     float updateBalance(const float& amount);
 };
