@@ -10,11 +10,11 @@ class SavingAccount {
 protected:
     // Default Amount
     float balance = 1000;
+
 public:
     SavingAccount() = default;
-
     float showBalance();
-    void updateBalance(const float& amount);
+    float updateBalance(const float& amount);
 };
 
 
