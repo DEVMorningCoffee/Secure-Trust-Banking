@@ -7,7 +7,15 @@
 
 
 class Balance {
+    // Start at 1000
+    float balance = 1000;
 
+public:
+    Balance() = default;
+    Balance(float&);
+
+    float getBalance() const;
+    float updateBalance(const float&);
 };
 
 
