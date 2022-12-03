@@ -4,13 +4,17 @@
 
 #include "Account.h"
 
-int Account::showID() {
+Account::Account(std::string& first_name, std::string& last_name) :  first_name(first_name), last_name(last_name){};
+
+Account::Account(std::string& first_name, std::string& last_name, float& saving_balance, float& checking_balance, int& ID, bool status) :
+    first_name(first_name), last_name(last_name), saving_balance(saving_balance), checking_balance(checking_balance),
+    ID(ID), status(status){};
+
+int Account::getID() const {
     return this->ID;
 }
 
-int Account::nextID = 0;
-
-bool Account::showStatus() {
+bool Account::getStatus() const {
     return this->status;
 }
 
@@ -19,17 +23,17 @@ void Account::changeStatus() {
 }
 
 void Account::updateCheckingAccountBalance(const float &amount) {
-    this->checkingAccount.updateBalance(amount);
+    this->checking_balance.updateBalance(amount);
 }
 
 void Account::updateSavingAccountBalance(const float &amount) {
-    this->SavingAccount::balance += amount;
+    this->saving_balance.updateBalance(amount);
 }
 
-float Account::showCheckingAccountBalance() {
-    return this->checkingAccount.showBalance();
+float Account::getAccountCheckingBalance() const{
+    return this->checking_balance.getBalance();
 }
 
-float Account::showSavingAccountBalance() {
-    return this->savingAccount.showBalance();
+float Account::getAccountSavingBalance() const{
+    return this->saving_balance.getBalance();
 }

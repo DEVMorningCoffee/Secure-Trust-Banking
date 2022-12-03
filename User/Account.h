@@ -5,18 +5,19 @@
 #ifndef ATM_ACCOUNT_H
 #define ATM_ACCOUNT_H
 
-#include "../Payment Account//SavingAccount.h"
-#include "../Payment Account//CheckingAccount.h"
+#include <string>
+#include "../Payment Account/Balance.h"
 
-class Account : public SavingAccount, public CheckingAccount{
-protected:
-    static int nextID;
+class Account : public Balance{
+    std::string first_name, last_name;
     int ID;
     bool status;
-    SavingAccount savingAccount;
-    CheckingAccount checkingAccount;
+    Balance saving_balance, checking_balance;
+
 public:
     Account() = default;
+    Account(std::string&, std::string&);
+    Account(std::string&, std::string&, float&, float&, int&, bool);
 
     // Setter
     void updateCheckingAccountBalance(const float& amount);
@@ -24,10 +25,10 @@ public:
     void changeStatus();
 
     // Getter
-    bool showStatus();
-    int showID();
-    float showCheckingAccountBalance();
-    float showSavingAccountBalance();
+    bool getStatus() const;
+    int getID() const;
+    float getAccountCheckingBalance() const;
+    float getAccountSavingBalance() const;
 };
 
 
