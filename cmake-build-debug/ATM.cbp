@@ -88,34 +88,22 @@
 		<Unit filename="/Users/jeff/Desktop/ATM/Bank/Bank.h">
 			<Option target="ATM"/>
 		</Unit>
+		<Unit filename="/Users/jeff/Desktop/ATM/File/File.cpp">
+			<Option target="ATM"/>
+		</Unit>
+		<Unit filename="/Users/jeff/Desktop/ATM/File/File.h">
+			<Option target="ATM"/>
+		</Unit>
 		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/Balance.cpp">
 			<Option target="ATM"/>
 		</Unit>
 		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/Balance.h">
 			<Option target="ATM"/>
 		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/CheckingAccount.cpp">
-			<Option target="ATM"/>
-		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/CheckingAccount.h">
-			<Option target="ATM"/>
-		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/SavingAccount.cpp">
-			<Option target="ATM"/>
-		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/Payment Account/SavingAccount.h">
-			<Option target="ATM"/>
-		</Unit>
 		<Unit filename="/Users/jeff/Desktop/ATM/User/Account.cpp">
 			<Option target="ATM"/>
 		</Unit>
 		<Unit filename="/Users/jeff/Desktop/ATM/User/Account.h">
-			<Option target="ATM"/>
-		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/User/Member.cpp">
-			<Option target="ATM"/>
-		</Unit>
-		<Unit filename="/Users/jeff/Desktop/ATM/User/Member.h">
 			<Option target="ATM"/>
 		</Unit>
 		<Unit filename="/Users/jeff/Desktop/ATM/main.cpp">

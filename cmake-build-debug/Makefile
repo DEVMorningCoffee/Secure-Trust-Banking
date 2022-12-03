@@ -153,6 +153,30 @@ Bank/Bank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Bank/Bank.cpp.s
 .PHONY : Bank/Bank.cpp.s
 
+File/File.o: File/File.cpp.o
+.PHONY : File/File.o
+
+# target to build an object file
+File/File.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/File/File.cpp.o
+.PHONY : File/File.cpp.o
+
+File/File.i: File/File.cpp.i
+.PHONY : File/File.i
+
+# target to preprocess a source file
+File/File.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/File/File.cpp.i
+.PHONY : File/File.cpp.i
+
+File/File.s: File/File.cpp.s
+.PHONY : File/File.s
+
+# target to generate assembly for a file
+File/File.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/File/File.cpp.s
+.PHONY : File/File.cpp.s
+
 Payment_Account/Balance.o: Payment_Account/Balance.cpp.o
 .PHONY : Payment_Account/Balance.o
 
@@ -177,54 +201,6 @@ Payment_Account/Balance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.s
 .PHONY : Payment_Account/Balance.cpp.s
 
-Payment_Account/CheckingAccount.o: Payment_Account/CheckingAccount.cpp.o
-.PHONY : Payment_Account/CheckingAccount.o
-
-# target to build an object file
-Payment_Account/CheckingAccount.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o
-.PHONY : Payment_Account/CheckingAccount.cpp.o
-
-Payment_Account/CheckingAccount.i: Payment_Account/CheckingAccount.cpp.i
-.PHONY : Payment_Account/CheckingAccount.i
-
-# target to preprocess a source file
-Payment_Account/CheckingAccount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.i
-.PHONY : Payment_Account/CheckingAccount.cpp.i
-
-Payment_Account/CheckingAccount.s: Payment_Account/CheckingAccount.cpp.s
-.PHONY : Payment_Account/CheckingAccount.s
-
-# target to generate assembly for a file
-Payment_Account/CheckingAccount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.s
-.PHONY : Payment_Account/CheckingAccount.cpp.s
-
-Payment_Account/SavingAccount.o: Payment_Account/SavingAccount.cpp.o
-.PHONY : Payment_Account/SavingAccount.o
-
-# target to build an object file
-Payment_Account/SavingAccount.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o
-.PHONY : Payment_Account/SavingAccount.cpp.o
-
-Payment_Account/SavingAccount.i: Payment_Account/SavingAccount.cpp.i
-.PHONY : Payment_Account/SavingAccount.i
-
-# target to preprocess a source file
-Payment_Account/SavingAccount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.i
-.PHONY : Payment_Account/SavingAccount.cpp.i
-
-Payment_Account/SavingAccount.s: Payment_Account/SavingAccount.cpp.s
-.PHONY : Payment_Account/SavingAccount.s
-
-# target to generate assembly for a file
-Payment_Account/SavingAccount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.s
-.PHONY : Payment_Account/SavingAccount.cpp.s
-
 User/Account.o: User/Account.cpp.o
 .PHONY : User/Account.o
 
@@ -248,30 +224,6 @@ User/Account.s: User/Account.cpp.s
 User/Account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/User/Account.cpp.s
 .PHONY : User/Account.cpp.s
-
-User/Member.o: User/Member.cpp.o
-.PHONY : User/Member.o
-
-# target to build an object file
-User/Member.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/User/Member.cpp.o
-.PHONY : User/Member.cpp.o
-
-User/Member.i: User/Member.cpp.i
-.PHONY : User/Member.i
-
-# target to preprocess a source file
-User/Member.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/User/Member.cpp.i
-.PHONY : User/Member.cpp.i
-
-User/Member.s: User/Member.cpp.s
-.PHONY : User/Member.s
-
-# target to generate assembly for a file
-User/Member.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM.dir/build.make CMakeFiles/ATM.dir/User/Member.cpp.s
-.PHONY : User/Member.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -309,21 +261,15 @@ help:
 	@echo "... Bank/Bank.o"
 	@echo "... Bank/Bank.i"
 	@echo "... Bank/Bank.s"
+	@echo "... File/File.o"
+	@echo "... File/File.i"
+	@echo "... File/File.s"
 	@echo "... Payment_Account/Balance.o"
 	@echo "... Payment_Account/Balance.i"
 	@echo "... Payment_Account/Balance.s"
-	@echo "... Payment_Account/CheckingAccount.o"
-	@echo "... Payment_Account/CheckingAccount.i"
-	@echo "... Payment_Account/CheckingAccount.s"
-	@echo "... Payment_Account/SavingAccount.o"
-	@echo "... Payment_Account/SavingAccount.i"
-	@echo "... Payment_Account/SavingAccount.s"
 	@echo "... User/Account.o"
 	@echo "... User/Account.i"
 	@echo "... User/Account.s"
-	@echo "... User/Member.o"
-	@echo "... User/Member.i"
-	@echo "... User/Member.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

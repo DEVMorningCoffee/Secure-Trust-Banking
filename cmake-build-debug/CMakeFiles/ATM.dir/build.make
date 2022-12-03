@@ -97,52 +97,10 @@ CMakeFiles/ATM.dir/User/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/User/Account.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeff/Desktop/ATM/User/Account.cpp -o CMakeFiles/ATM.dir/User/Account.cpp.s
 
-CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o: CMakeFiles/ATM.dir/flags.make
-CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o: ../Payment\ Account/SavingAccount.cpp
-CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o -MF CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o.d -o CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o -c "/Users/jeff/Desktop/ATM/Payment Account/SavingAccount.cpp"
-
-CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeff/Desktop/ATM/Payment Account/SavingAccount.cpp" > CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.i
-
-CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeff/Desktop/ATM/Payment Account/SavingAccount.cpp" -o CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.s
-
-CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o: CMakeFiles/ATM.dir/flags.make
-CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o: ../Payment\ Account/CheckingAccount.cpp
-CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o -MF CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o.d -o CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o -c "/Users/jeff/Desktop/ATM/Payment Account/CheckingAccount.cpp"
-
-CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeff/Desktop/ATM/Payment Account/CheckingAccount.cpp" > CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.i
-
-CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeff/Desktop/ATM/Payment Account/CheckingAccount.cpp" -o CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.s
-
-CMakeFiles/ATM.dir/User/Member.cpp.o: CMakeFiles/ATM.dir/flags.make
-CMakeFiles/ATM.dir/User/Member.cpp.o: ../User/Member.cpp
-CMakeFiles/ATM.dir/User/Member.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ATM.dir/User/Member.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/User/Member.cpp.o -MF CMakeFiles/ATM.dir/User/Member.cpp.o.d -o CMakeFiles/ATM.dir/User/Member.cpp.o -c /Users/jeff/Desktop/ATM/User/Member.cpp
-
-CMakeFiles/ATM.dir/User/Member.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATM.dir/User/Member.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeff/Desktop/ATM/User/Member.cpp > CMakeFiles/ATM.dir/User/Member.cpp.i
-
-CMakeFiles/ATM.dir/User/Member.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/User/Member.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeff/Desktop/ATM/User/Member.cpp -o CMakeFiles/ATM.dir/User/Member.cpp.s
-
 CMakeFiles/ATM.dir/Bank/Bank.cpp.o: CMakeFiles/ATM.dir/flags.make
 CMakeFiles/ATM.dir/Bank/Bank.cpp.o: ../Bank/Bank.cpp
 CMakeFiles/ATM.dir/Bank/Bank.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ATM.dir/Bank/Bank.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ATM.dir/Bank/Bank.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/Bank/Bank.cpp.o -MF CMakeFiles/ATM.dir/Bank/Bank.cpp.o.d -o CMakeFiles/ATM.dir/Bank/Bank.cpp.o -c /Users/jeff/Desktop/ATM/Bank/Bank.cpp
 
 CMakeFiles/ATM.dir/Bank/Bank.cpp.i: cmake_force
@@ -156,7 +114,7 @@ CMakeFiles/ATM.dir/Bank/Bank.cpp.s: cmake_force
 CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o: CMakeFiles/ATM.dir/flags.make
 CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o: ../Payment\ Account/Balance.cpp
 CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o -MF CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o.d -o CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o -c "/Users/jeff/Desktop/ATM/Payment Account/Balance.cpp"
 
 CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.i: cmake_force
@@ -167,29 +125,39 @@ CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeff/Desktop/ATM/Payment Account/Balance.cpp" -o CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.s
 
+CMakeFiles/ATM.dir/File/File.cpp.o: CMakeFiles/ATM.dir/flags.make
+CMakeFiles/ATM.dir/File/File.cpp.o: ../File/File.cpp
+CMakeFiles/ATM.dir/File/File.cpp.o: CMakeFiles/ATM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ATM.dir/File/File.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM.dir/File/File.cpp.o -MF CMakeFiles/ATM.dir/File/File.cpp.o.d -o CMakeFiles/ATM.dir/File/File.cpp.o -c /Users/jeff/Desktop/ATM/File/File.cpp
+
+CMakeFiles/ATM.dir/File/File.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATM.dir/File/File.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeff/Desktop/ATM/File/File.cpp > CMakeFiles/ATM.dir/File/File.cpp.i
+
+CMakeFiles/ATM.dir/File/File.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATM.dir/File/File.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeff/Desktop/ATM/File/File.cpp -o CMakeFiles/ATM.dir/File/File.cpp.s
+
 # Object files for target ATM
 ATM_OBJECTS = \
 "CMakeFiles/ATM.dir/main.cpp.o" \
 "CMakeFiles/ATM.dir/User/Account.cpp.o" \
-"CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o" \
-"CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o" \
-"CMakeFiles/ATM.dir/User/Member.cpp.o" \
 "CMakeFiles/ATM.dir/Bank/Bank.cpp.o" \
-"CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o"
+"CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o" \
+"CMakeFiles/ATM.dir/File/File.cpp.o"
 
 # External object files for target ATM
 ATM_EXTERNAL_OBJECTS =
 
 ATM: CMakeFiles/ATM.dir/main.cpp.o
 ATM: CMakeFiles/ATM.dir/User/Account.cpp.o
-ATM: CMakeFiles/ATM.dir/Payment_Account/SavingAccount.cpp.o
-ATM: CMakeFiles/ATM.dir/Payment_Account/CheckingAccount.cpp.o
-ATM: CMakeFiles/ATM.dir/User/Member.cpp.o
 ATM: CMakeFiles/ATM.dir/Bank/Bank.cpp.o
 ATM: CMakeFiles/ATM.dir/Payment_Account/Balance.cpp.o
+ATM: CMakeFiles/ATM.dir/File/File.cpp.o
 ATM: CMakeFiles/ATM.dir/build.make
 ATM: CMakeFiles/ATM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ATM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeff/Desktop/ATM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ATM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ATM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

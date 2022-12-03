@@ -6,6 +6,9 @@
 #define ATM_ACCOUNT_H
 
 #include <string>
+#include <sstream>
+#include <utility>
+#include <random>
 #include "../Payment Account/Balance.h"
 
 class Account : public Balance{
@@ -14,6 +17,7 @@ class Account : public Balance{
     bool status;
     Balance saving_balance, checking_balance;
 
+    static int assignID();
 public:
     Account() = default;
     Account(std::string&, std::string&);
@@ -23,12 +27,15 @@ public:
     void updateCheckingAccountBalance(const float& amount);
     void updateSavingAccountBalance(const float& amount);
     void changeStatus();
+    void transferMoney(const float&, const char&);
 
     // Getter
     bool getStatus() const;
     int getID() const;
     float getAccountCheckingBalance() const;
     float getAccountSavingBalance() const;
+    std::string toStringAccount() const;
+    std::string getName() const;
 };
 
 
