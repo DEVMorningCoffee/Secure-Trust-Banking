@@ -29,7 +29,7 @@ std::map<int, Account> File::readMemberFile() {
             float savingBalance = std::stof(member[3]);
             float checkingBalance = std::stof(member[4]);
 
-            bool status = toBool(member[5]);
+            bool status = (std::stoi(member[5]) != 0);
 
             Account account(first_name, last_name, savingBalance, checkingBalance, ID, status);
 
@@ -51,14 +51,6 @@ std::vector<std::string> File::splitString(const std::string& account) {
     std::copy(vec.begin(), vec.end(), std::back_inserter(vec));
 
     return vec;
-}
-
-bool File::toBool(std::string& bool_str) {
-    std::transform(bool_str.begin(), bool_str.end(), bool_str.begin(), ::tolower);
-    std::istringstream is(bool_str);
-    bool b;
-    is >> std::boolalpha >> b;
-    return b;
 }
 
 void File::writeMemberFile(const std::map<int, Account>& account) {

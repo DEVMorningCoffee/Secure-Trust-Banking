@@ -63,9 +63,11 @@ void Bank::storeMemberAccount(std::map<int, Account> m) {
 void Bank::wireMoney() {
     std::cout << "Sender\n";
     Account sender = this->findMemberAccount();
+    sender.checkStatus();
 
     std::cout << "Receiver\n";
     Account receiver = this->findMemberAccount();
+    sender.checkStatus();
 
     if(sender.getID() == receiver.getID()){
         throw std::invalid_argument("Sender and Receiver match");
@@ -90,4 +92,15 @@ void Bank::wireMoney() {
     this->updateMemberAccount(receiver);
 
     std::cout << "======Wire Complete======\n\n";
+}
+
+void Bank::changeAccountStatus() {
+    Account account = this->findMemberAccount();
+    account.changeStatus();
+    if(!account.getStatus()){
+        std::cout << account.getName() << " Is Open\n\n";
+    }else{
+        std::cout << account.getName() << " Is Lock\n\n";
+    }
+    this->updateMemberAccount(account);
 }

@@ -25,10 +25,12 @@ void Account::changeStatus() {
 }
 
 void Account::updateCheckingAccountBalance(const float &amount) {
+    this->checkStatus();
     this->checking_balance.updateBalance(amount);
 }
 
 void Account::updateSavingAccountBalance(const float &amount) {
+    this->checkStatus();
     this->saving_balance.updateBalance(amount);
 }
 
@@ -41,6 +43,7 @@ float Account::getAccountSavingBalance() const{
 }
 
 void Account::transferMoney(const float& amount, const char& accountType) {
+    this->checkStatus();
     if(accountType == 's'){
         this->saving_balance.updateBalance(-amount);
         this->checking_balance.updateBalance(amount);
@@ -71,4 +74,10 @@ std::string Account::toStringAccount() const {
 
 std::string Account::getName() const {
     return this->first_name + " " + this->last_name;
+}
+
+void Account::checkStatus() const {
+    if(this->status){
+        throw std::invalid_argument("Account Lock");
+    }
 }

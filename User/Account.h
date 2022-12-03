@@ -36,6 +36,7 @@ public:
     float getAccountSavingBalance() const;
     std::string toStringAccount() const;
     std::string getName() const;
+    void checkStatus() const;
 };
 
 

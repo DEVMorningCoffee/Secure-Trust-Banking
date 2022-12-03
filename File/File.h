@@ -21,7 +21,6 @@
 class File : public Account {
     const std::string member_file_path = "../File/Member.txt";
     static std::vector<std::string> splitString(const std::string&);
-    static bool toBool(std::string&);
 
 public:
     File() = default;

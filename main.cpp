@@ -48,6 +48,7 @@ int main() {
                 }
                 case 3:{
                     Account account  = bank.findMemberAccount();
+                    account.checkStatus();
 
                     char accountType;
                     std::cout << "Withdraw from saving or checking: (s/c): ";
@@ -64,6 +65,7 @@ int main() {
                 }
                 case 4:{
                     Account account  = bank.findMemberAccount();
+                    account.checkStatus();
 
                     char accountType;
                     std::cout << "Saving or Checking: (s/c): ";
@@ -89,11 +91,16 @@ int main() {
                     break;
                 }
                 case 6:{
-                    bank.removeAccount();
+                    bank.changeAccountStatus();
                     file.writeMemberFile(bank.getAllMemberAccount());
                     break;
                 }
                 case 7:{
+                    bank.removeAccount();
+                    file.writeMemberFile(bank.getAllMemberAccount());
+                    break;
+                }
+                case 8:{
                     running = false;
                     std::cout << "GoodBye!!!";
                     file.writeMemberFile(bank.getAllMemberAccount());
@@ -113,9 +120,9 @@ int main() {
 }
 
 void displayOptions(){
-    std::array<std::string, 8> options = {"Open Account","Show All Accounts",
+    std::array<std::string, 9> options = {"Open Account","Show All Accounts",
                                           "Find Account", "Transfer Money",
-                                          "Deposit or Withdraw Money", "Wire Transfer", "Close Account", "Quit"};
+                                          "Deposit or Withdraw Money", "Wire Transfer", "Change Account Status", "Close Account", "Quit"};
 
     for(int i = 0; i < options.size(); i++){
         std::cout << i << ". " << options[i] << std::endl;

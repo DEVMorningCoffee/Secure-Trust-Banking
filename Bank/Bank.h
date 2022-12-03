@@ -25,6 +25,7 @@ public:
     void updateMemberAccount(Account);
     void addMemberAccount(Account&);
     void wireMoney();
+    void changeAccountStatus();
 };
 
 
