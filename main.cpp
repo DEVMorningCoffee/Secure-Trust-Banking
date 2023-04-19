@@ -19,19 +19,19 @@ int main() {
         while(running){
             displayOptions();
 
-            int choice = 0;
+            std::string choice;
             std::cout << "\nPlease pick an option: ";
-            std::cin >> choice;
+            std::getline(std::cin >> std::ws, choice);
 
 
-            switch(choice){
+            switch(std::stoi(choice)){
                 case 0: {
                     std::string first_name, last_name;
 
                     std::cout << "Please enter your first name: ";
-                    std::cin >> first_name;
+                    std::getline(std::cin >> std::ws, first_name);
                     std::cout << "Please enter your last name: ";
-                    std::cin >> last_name;
+                    std::getline(std::cin >> std::ws, last_name);
 
                     Account account(first_name, last_name);
                     bank.addMemberAccount(account);
